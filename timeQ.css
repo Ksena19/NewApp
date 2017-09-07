@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif');
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	width: 100%;
+	font-family: 'Bree Serif', serif;
+	background-image: url('../img/e4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+
+}
+.time {
+	text-align: center;
+	margin: 200px auto;
+	font-size: 3.500em;
+
+}
+#myCanvas {
+	margin-left: 30%;
+	margin-top: -700px;
+	
+}
+#quote {
+	text-align: center;
+	font-weight: normal;
+}
+.content {
+	margin: 0 auto;
+	width: 80%;
+}

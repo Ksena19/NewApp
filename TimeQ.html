@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Modal</title>
+    <link rel="stylesheet" type="text/css" href="css/timeQ.css">
+</head>
+
+<body>
+	<div class="time">
+		<span id="time"></span>
+		</div>
+	<canvas id="myCanvas" width="500" height="200">
+		
+	</canvas>
+	<div class="content">
+		<h1 id="quote"></h1>
+	</div>
+	
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
+ctx.beginPath();
+ctx.arc(70,70,60,0,2*Math.PI);
+ctx.fillStyle = "#E7475E";
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(150,50,30,0,2*Math.PI);
+ctx.fillStyle = "#E6E6E6";
+ctx.fill();
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(270,30,20,0,2*Math.PI);
+ctx.fillStyle = "#F9C134";
+ctx.fill();
+ctx.stroke();
+
+
+
+</script> 
+
+</body>
+	<script src="js/timeQ.js"></script>
+
+</body>
+</html>

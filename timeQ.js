@@ -84,6 +84,14 @@ function myTime() {
 	document.querySelector('#time').innerHTML = time.toLocaleTimeString();
 	}
 
+// это типа должны менятсья морнинг цытаты через 2 сек.
+var rand = Math.floor(Math.random() * morningQuotes.length);
+function change() {
+	document.getElementById('quote').textContent = rand;
+}
+setInterval('change', 2000);
+
+// вот второй варик, но тоже почему то не сработало
 // вот тут я накосячила. значит пыталась с random math что-то сделать, но 
 // не получилось. 
 var time = new Date();
